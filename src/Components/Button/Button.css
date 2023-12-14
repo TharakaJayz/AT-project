@@ -1,0 +1,10 @@
+.button_main{
+    color: red;
+    background-color: var(--secondary_color);
+    color:var(--primary_text_color);
+    border:none;
+    font-size: 0.9rem;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    border-radius: 3px;
+}

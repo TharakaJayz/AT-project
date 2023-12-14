@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@500;600;700&family=Marcellus&family=Open+Sans:wght@300&family=Roboto+Mono&display=swap');
+
+:root{
+  --padding_RghtLeft:5vw;
+  --width:100dvw;
+  --height:100dvh;
+  --primary-font:'Inter', sans-serif;
+  /* navbar*/
+  --nav_height:12vh;
+  --nav_dropDown_height:88vh;
+
+  /* colors*/
+  --primary_color:rgba(107, 60, 201, 1);
+  --secondary_color:rgba(242, 141, 53, 1);
+  --primary_text_color:#fff;
+  --secondary_text_color:#000000;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app_main{
+  min-height: 100dvh;
+  max-width: 100dvw;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page_style{
+
+}
+
+.flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
