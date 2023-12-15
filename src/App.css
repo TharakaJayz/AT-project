@@ -6,6 +6,8 @@
   --width:100dvw;
   --height:100dvh;
   --primary-font:'Inter', sans-serif;
+  --body_font-size:1rem;
+  --body_heading_font_size:1.8rem;
   /* navbar*/
   --nav_height:12vh;
   --nav_dropDown_height:88vh;
