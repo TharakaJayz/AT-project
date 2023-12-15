@@ -12,6 +12,8 @@
   --nav_height:12vh;
   --nav_dropDown_height:88vh;
 
+  /* Footer*/
+  --footer_body_font_size:0.9rem;
   /* colors*/
   --primary_color:rgba(107, 60, 201, 1);
   --secondary_color:rgba(242, 141, 53, 1);

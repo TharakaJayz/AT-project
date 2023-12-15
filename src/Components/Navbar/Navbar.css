@@ -20,7 +20,6 @@
 }
 .nav_content_sec-1 > img{
     width: 100%;
-    /* width: 15.5vw; */
     height:auto;
 }
 .nav_content_sec-2{
@@ -94,7 +93,6 @@
     }
 
 }
-
 
 
 @media (max-width: 376px) {
