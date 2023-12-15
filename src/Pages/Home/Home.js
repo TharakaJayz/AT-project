@@ -12,7 +12,7 @@ const Home = () => {
         <p>
           We crush your competitors, goals, and sales records - without the B.S.
         </p>
-        <Button style ={'home_main_sec-2_button'}>Get free consultation</Button>
+        <Button styleBtn ={'home_main_sec-2_button'}>Get free consultation</Button>
       </section>
     </div>
   );
